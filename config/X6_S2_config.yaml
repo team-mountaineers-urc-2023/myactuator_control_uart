@@ -1,0 +1,27 @@
+acceleration: 60000 # Max can be set to 60000
+deceleration: 60000 
+PID_params:   # Params currently set to current PID values of X6_X2_V2_2 Params, These are motors with serial number containing 23 instead of 22
+  # These values have range of 0-255 (uint8)
+  #############Update with integer values 
+  curr_KP: 100
+  curr_KI: 50
+  speed_KP: 255
+  speed_KI: 5
+  pos_KP: 100
+  pos_KI: 1
+
+  # Defaults
+  # curr_KP: 100
+  # curr_KI: 50
+  # speed_KP: 100
+  # speed_KI: 5
+  # pos_KP: 100
+  # pos_KI: 1
+
+  # Actual default values set for these params are as follows
+  # curr_KP: 0.1953125
+  # curr_KI: 0.009765625
+  # speed_KP: 0.00390625
+  # speed_KI: 0.000009765625
+  # pos_KP: 0.0390625
+  # pos_KI: 0.00001953125
